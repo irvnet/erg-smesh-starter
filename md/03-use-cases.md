@@ -10,33 +10,52 @@
 
 ## Load balancing
 
-service mesh can distribute incoming requests evenly across multiple instances of a service, ensuring that no single instance becomes overloaded. This can improve the performance and reliability of the system.
+- Distribute incoming requests evenly across multiple instances of a service
+- ensure individual instances aren't overwhelmed
+- improve system performance and reliability by managing requests
 
 ---
 
 ## Traffic routing
 
-A service mesh can be used to route traffic between microservices in a variety of ways, including by service version, user, or geographic region. This allows organizations to deploy and test new versions of services without affecting the entire system.
+- route traffic between microservices in a variety of ways
+- manage traffic by service version, by user, or geographic region as examples 
+- allows for testing new service versions with a subset of traffic without affecting the entire system
 
 ---
 
 ## Service discovery
 
-A service mesh can help microservices discover and communicate with one another, even if they are running on different servers or in different data centers. This can make it easier to build and manage large, distributed systems.
+- can help microservices discover and communicate (even across network boundaries)
+- can simplify building large systems or managing ephemeral resources
 
 ---
 
 ## Security
 
-A service mesh can be configured to enforce security policies such as encryption, authentication, and access control. This can help to protect sensitive data and prevent unauthorized access to critical systems.
+- can help enforce security policies such as encryption, authentication, and access control
+- This can help to protect sensitive data and prevent unauthorized access to critical systems
+- can simplify effort levels to adopt security on registered services 
 
 ---
 
 ## Monitoring and observability
 
-A service mesh can provide detailed visibility into the traffic flowing between microservices, making it easier to monitor performance and identify issues. This can help organizations to quickly detect and resolve problems, improving the overall reliability of the system.
+- can provide visibility into traffic flowing between services
+- simplifies monitoring performance to quickly detect and resolve problems
+- better/simplier observability helps improve overall reliability of the system.
 
 ---
+
+## What might I use service mesh for?
+- bridging the gap between cloud services and on-prem serivces
+- bridging the gap across multiple clouds
+- managing east-west traffic within (or across) a k8s cluster(s)
+- managing east-west traffic across a datacenter
+- managing east-west traffic across multiple 
+
+---
+
 
 # Conclusion
 
