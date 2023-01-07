@@ -3,7 +3,29 @@
 % March 2023
 
 
-## Service Mesh Architecture overview
-- todo: add diagram: highlight control plane vs data plane and the purpose of each
+## In this Section... 
+- Understanding Microservice Archtiecture
+- Microservice Examples
+- Service Mesh Architecture
 
 ---
+## What's a Microservice?
+
+---
+## Understanding Microservice Archtiecture
+
+---
+## Microservice Examples
+
+---
+
+## Service Mesh Architecture 
+
+[![Consul Arch](../images/consul-arch.png 'Consul deployment architecture')](https://developer.hashicorp.com/consul/tutorials/certification-associate-tutorials/deployment-guide)
+
+---
+## Service Mesh Architecture
+- item 1
+- item 2
+- item 3
+
