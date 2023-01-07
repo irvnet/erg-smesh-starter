@@ -29,6 +29,11 @@
 
 - A service mesh provides a central point of control and management, making it easier to build and maintain complex systems
 
+
+## History of Service Mesh
+- TODO: highlight were it came from
+
+
 ## Conclusion
 
 - Recap of the main benefits of a service mesh and its role in microservices-based applications
