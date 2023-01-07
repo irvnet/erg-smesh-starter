@@ -7,7 +7,7 @@
 - Understand Microservice architecture & deployment
 - Learn a specific service mesh implementation
 - Learn about the Service Mesh ecosystem
-- 
+
 
 ---
 
