@@ -47,41 +47,68 @@ Mesh…)</h2>
 <section class="slide level1">
 
 <h2 id="load-balancing">Load balancing</h2>
-<p>service mesh can distribute incoming requests evenly across multiple
-instances of a service, ensuring that no single instance becomes
-overloaded. This can improve the performance and reliability of the
-system.</p>
+<ul>
+<li>Distribute incoming requests evenly across multiple instances of a
+service</li>
+<li>ensure individual instances aren’t overwhelmed</li>
+<li>improve system performance and reliability by managing requests</li>
+</ul>
 </section>
 <section class="slide level1">
 
 <h2 id="traffic-routing">Traffic routing</h2>
-<p>A service mesh can be used to route traffic between microservices in
-a variety of ways, including by service version, user, or geographic
-region. This allows organizations to deploy and test new versions of
-services without affecting the entire system.</p>
+<ul>
+<li>route traffic between microservices in a variety of ways</li>
+<li>manage traffic by service version, by user, or geographic region as
+examples</li>
+<li>allows for testing new service versions with a subset of traffic
+without affecting the entire system</li>
+</ul>
 </section>
 <section class="slide level1">
 
 <h2 id="service-discovery">Service discovery</h2>
-<p>A service mesh can help microservices discover and communicate with
-one another, even if they are running on different servers or in
-different data centers. This can make it easier to build and manage
-large, distributed systems.</p>
+<ul>
+<li>can help microservices discover and communicate (even across network
+boundaries)</li>
+<li>can simplify building large systems or managing ephemeral
+resources</li>
+</ul>
 </section>
 <section class="slide level1">
 
 <h2 id="security">Security</h2>
-<p>A service mesh can be configured to enforce security policies such as
-encryption, authentication, and access control. This can help to protect
-sensitive data and prevent unauthorized access to critical systems.</p>
+<ul>
+<li>can help enforce security policies such as encryption,
+authentication, and access control</li>
+<li>This can help to protect sensitive data and prevent unauthorized
+access to critical systems</li>
+<li>can simplify effort levels to adopt security on registered
+services</li>
+</ul>
 </section>
 <section class="slide level1">
 
 <h2 id="monitoring-and-observability">Monitoring and observability</h2>
-<p>A service mesh can provide detailed visibility into the traffic
-flowing between microservices, making it easier to monitor performance
-and identify issues. This can help organizations to quickly detect and
-resolve problems, improving the overall reliability of the system.</p>
+<ul>
+<li>can provide visibility into traffic flowing between services</li>
+<li>simplifies monitoring performance to quickly detect and resolve
+problems</li>
+<li>better/simplier observability helps improve overall reliability of
+the system.</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="what-might-i-use-service-mesh-for">What might I use service mesh
+for?</h2>
+<ul>
+<li>bridging the gap between cloud services and on-prem serivces</li>
+<li>bridging the gap across multiple clouds</li>
+<li>managing east-west traffic within (or across) a k8s cluster(s)</li>
+<li>managing east-west traffic across a datacenter</li>
+<li>managing east-west traffic across multiple</li>
+</ul>
 </section>
 <section id="conclusion" class="slide level1">
 <h1>Conclusion</h1>
