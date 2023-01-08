@@ -7,14 +7,14 @@
 
 ### Are you interested in:
 
-- Expanding your vocabulary as a solutions architect?
+- Expanding your architecture vocabulary?
 - Managing service mesh as an operations specialist? 
 - Using service mesh as a development specialist?
 - Working at for a vendor that prioritizes service mesh technology?
 
 ---
 
-## Expanding your vocabulary as a solutions architect
+## Expanding your architecture vocabulary
 
 - find organizations that drive education about cloud-native development
 - Research and compare options for managing north-south and east-west traffic
@@ -23,7 +23,7 @@
 
 ---
 
-## Expanding your vocabulary as a solutions architect
+## Expanding your architecture vocabulary
 
 - add: east west traffic articles?
 - add: cncf service mesh class
