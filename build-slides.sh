@@ -1,5 +1,13 @@
 #! /bin/sh
 
+#run pandoc with reveal bits hosted on unpkg to simplify the working directory so reveal repo doesn't need to be downloaded
+#`pandoc --standalone -t revealjs -V revealjs-url=https://unpkg.com/reveal.js -V theme=beige -o test.html test.md`
+#- `--standalone` - allows distribution of a single html file as the slide deck
+#- `-t revealjs` - identifies that pandoc should generate output using reveal.js html format
+#- `-V revealjs-url=https://unpkg.com/reveal.js` - allows pandoc to leverage remotely hosted source for the conversion
+#-  `-V theme=beige` - identifies theme to use (can create a blacksmiths template later)
+#- `-o test.html test.md` - convert the named markdown file to the named html file
+
 REVEAL_URL=https://unpkg.com/reveal.js
 REVEAL_THEME=beige
 INPUT_DIR=./md
